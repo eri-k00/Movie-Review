@@ -27,9 +27,17 @@ section {
   margin-bottom: 30px;
 }
 
+.movie-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 .movie-card {
   background-color: #f5edf2;
-  padding: 15px;
+  padding: 20px;
   margin-bottom: 15px;
   border-radius: 10px;
+
+  flex: 1 1 200px;
 }
