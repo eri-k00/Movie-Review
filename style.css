@@ -1,5 +1,35 @@
-h1 {
-  color: rgb(78, 27, 63);
+#website-title {
+  color: rgb(77, 51, 69);
   font-size: 30px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav {
+  background-color: rgb(77, 51, 69);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25 px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+main {
+  padding: 20px;
+}
+section {
+  margin-bottom: 30px;
+}
+
+.movie-card {
+  background-color: #f5edf2;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
 }
