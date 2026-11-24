@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register | MeowView</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>MeowView 🐾</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="movies.html">Movies</a>
+      <a href="genres.html">Genres</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="login.html">Login</a>
+      <a href="register.html">Register</a>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Create an Account 🔐</h2>
+
+        <form>
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" />
+
+          <br /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+
+          <br /><br />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+
+          <br /><br />
+
+          <label for="genre">Favorite Genre:</label>
+
+          <select id="genre" name="genre">
+            <option value="fantasy">Fantasy</option>
+            <option value="romance">Romance</option>
+            <option value="action">Action</option>
+            <option value="comedy">Comedy</option>
+            <option value="horror">Horror</option>
+            <option value="sci-fi">Sci-Fi</option>
+            <option value="anime">Anime</option>
+            <option value="animation">Animation</option>
+            <option value="adventure">Adventure</option>
+            <option value="drama">Drama</option>
+            <option value="thriller">Thriller</option>
+            <option value="mystery">Mystery</option>
+            <option value="crime">Crime</option>
+          </select>
+
+          <br /><br />
+
+          <p>How often do you watch movies?</p>
+
+          <input type="radio" id="daily" name="watching" value="daily" />
+          <label for="daily">Daily</label>
+
+          <input type="radio" id="weekly" name="watching" value="weekly" />
+          <label for="weekly">Weekly</label>
+
+          <input
+            type="radio"
+            id="occasionally"
+            name="watching"
+            value="occasionally"
+          />
+          <label for="occasionally">Occasionally</label>
+
+          <br /><br />
+
+          <input type="checkbox" id="terms" name="terms" />
+          <label for="terms">I agree to the terms and conditions.</label>
+
+          <br /><br />
+
+          <button type="submit">Create Account</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
