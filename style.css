@@ -108,3 +108,23 @@ form button {
   border-radius: 8px;
   cursor: pointer;
 }
+
+form label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+form input,
+form select {
+  margin-bottom: 15px;
+}
+
+form button:hover {
+  background-color: #6b3b5d;
+}
+
+.account-form {
+  background-color: #f5edf2;
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 500px;
+}
