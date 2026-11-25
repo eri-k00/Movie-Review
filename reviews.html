@@ -21,8 +21,92 @@
     </nav>
 
     <main>
-      <h2>Movie Reviews ⭐</h2>
-      <p>Discover what other people think about different movies.</p>
+      <section>
+        <h2>Movie Reviews ⭐</h2>
+        <p>Discover what other people think about different movies.</p>
+      </section>
+
+      <section>
+        <h2>Latest Reviews ✶</h2>
+        <div class="movie container">
+          <article class="movie-card">
+            <h3>The Odyssey</h3>
+            <p><strong>Rating:</strong> ⭐⭐⭐⭐⭐</p>
+            <p>
+              A fantasy adventure inspired by the legendary journey of Odysseus.
+            </p>
+            <p><strong>Reviewed by:</strong> MeowView Team</p>
+          </article>
+
+          <article class="movie-card">
+            <h3>Spider-Man: Brand New Day</h3>
+            <p><strong>Rating:</strong> ⭐⭐⭐⭐</p>
+            <p>
+              A fun superhero movie with plenty of action and interesting
+              characters.
+            </p>
+            <p><strong>Reviewed by:</strong> MeowView Team</p>
+          </article>
+
+          <article class="movie-card">
+            <h3>The Blue Road</h3>
+            <p><strong>Rating:</strong> ⭐⭐⭐⭐</p>
+            <p>
+              A mysterious story with an interesting atmosphere and plenty to
+              discover.
+            </p>
+            <p><strong>Reviewed by:</strong> MeowView Team</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Write a Review ✍️</h2>
+
+        <form class="account-form">
+          <label for="reviewer-name">Your Name:</label>
+          <input type="text" id="reviewer-name" name="reviewer-name" />
+
+          <br /><br />
+
+          <label for="movie">Movie:</label>
+
+          <select id="movie" name="movie">
+            <option value="odyssey">The Odyssey</option>
+            <option value="spiderman">Spider-Man: Brand New Day</option>
+            <option value="blue-road">The Blue Road</option>
+          </select>
+
+          <br /><br />
+
+          <label for="rating">Rating:</label>
+
+          <select id="rating" name="rating">
+            <option value="5">⭐⭐⭐⭐⭐</option>
+            <option value="4">⭐⭐⭐⭐</option>
+            <option value="3">⭐⭐⭐</option>
+            <option value="2">⭐⭐</option>
+            <option value="1">⭐</option>
+          </select>
+
+          <br /><br />
+
+          <label for="review">Your Review:</label>
+          <br />
+
+          <textarea
+            id="review"
+            name="review"
+            rows="5"
+            cols="40"
+            placeholder="Write your thoughts about the movie..."
+          ></textarea>
+
+          <br /><br />
+
+          <button type="submit">Submit Review</button>
+        </form>
+      </section>
     </main>
   </body>
 </html>
