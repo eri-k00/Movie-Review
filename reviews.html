@@ -65,13 +65,13 @@
 
         <form class="account-form">
           <label for="reviewer-name">Your Name:</label>
-          <input type="text" id="reviewer-name" name="reviewer-name" />
+          <input type="text" id="reviewer-name" name="reviewer-name" required />
 
           <br /><br />
 
           <label for="movie">Movie:</label>
 
-          <select id="movie" name="movie">
+          <select id="movie" name="movie" required>
             <option value="odyssey">The Odyssey</option>
             <option value="spiderman">Spider-Man: Brand New Day</option>
             <option value="blue-road">The Blue Road</option>
@@ -100,6 +100,7 @@
             rows="5"
             cols="40"
             placeholder="Write your thoughts about the movie..."
+            required
           ></textarea>
 
           <br /><br />
